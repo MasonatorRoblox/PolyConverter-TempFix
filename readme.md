@@ -9,7 +9,7 @@ that can't normally be edited, such as object depth (Z coordinate).
 
 ### How to use
 
-- Exract the 'polyconverter' folder to your Sandbox folder.
+- Extract the 'polyconverter' folder inside the .zip to your Sandbox folder.
 - Download .NET from https://dotnet.microsoft.com/download/dotnet/3.1/runtime (Click "Download x64" under the "Run console apps" section). Without this, PolyConverter will never open (Yes, I know, it's quite a lot more work than just using a single .exe, but at least this works).
 - Edit the gamepath.txt folder in the 'polyconverter' folder to match the filepath of where the game is installed. Make sure to end the filepath at Poly Bridge 2 (Example: D:\SteamLibrary\steamapps\common\Poly Bridge 2).
 - Place any files (.json, .slot, or .layout) you want to convert inside the 'polyconverter' folder 
