@@ -9,14 +9,13 @@ that can't normally be edited, such as object depth (Z coordinate).
 
 ### How to use
 
-- Create a folder inside your Sandbox folder called polyconverter, or else running polyconverter will convert every single file inside your Sandbox folder.
+- Exract the 'polyconverter' folder to your Sandbox folder.
 - Download .NET from https://dotnet.microsoft.com/download/dotnet/3.1/runtime (Click "Download x64" under the "Run console apps" section). Without this, PolyConverter will never open (Yes, I know, it's quite a lot more work than just using a single .exe, but at least this works).
-- Extract the files from this .zip to the 'polyconverter' folder you just made.
-- Edit the gamepath.txt folder to match the filepath of where the game is installed. Make sure to end the filepath at Poly Bridge 2 (Example: D:\SteamLibrary\steamapps\common\Poly Bridge 2).
-- Place any files you want to convert inside the 'polyconverter' folder 
+- Edit the gamepath.txt folder in the 'polyconverter' folder to match the filepath of where the game is installed. Make sure to end the filepath at Poly Bridge 2 (Example: D:\SteamLibrary\steamapps\common\Poly Bridge 2).
+- Place any files (.json, .slot, or .layout) you want to convert inside the 'polyconverter' folder 
 - When you run it, the .layout and .slot files will be converted into .json files.  
-- By pressing Enter to run the program again, all the changes you made in the .json files
-will be applied to the .layout and .slot files (or vice-versa).
+- With the console window still open, if you press Enter to run the program again, all the changes you made in the .json files
+will be applied to the .layout and/or .slot files (or vice-versa).
 - A backup of the original file (before any changes) will be created if one doesn't exist.  
 - You can keep applying new changes as many times as you want without having to close the window by pressing Enter.
 
